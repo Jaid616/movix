@@ -1,0 +1,16 @@
+.carouseSection {
+    position: relative;
+    margin-bottom: 70px;
+    margin-top: 40px;
+    & > .contentWrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .carouseTitle{
+        font-size: 24px;
+        color:white;
+        font-weight: normal;
+    }
+}
